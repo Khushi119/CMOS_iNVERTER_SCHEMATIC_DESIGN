@@ -28,17 +28,17 @@ Steps to Design and Simulate CMOS Inverter in Cadence Virtuoso<br>
 **Step 1.** Invoking the Tool<br>
 
 Open terminal and type:<br>
-csh<br>
-cd cds_working<br>
-source cshrc.cadence<br>
-virtuoso<br>
+- csh<br>
+- cd cds_working<br>
+- source cshrc.cadence<br>
+- virtuoso<br>
 
 **Step 2.** Create Library<br>
 <br>
-      - Go to File → New → Library.<br>
-    - Assign a name to the library.<br>
-    - Attach the library to the technology library ts018_scl_prim.<br>
-    - Click Apply → OK.<br>
+- Go to File → New → Library.<br>
+- Assign a name to the library.<br>
+- Attach the library to the technology library ts018_scl_prim.<br>
+- Click Apply → OK.<br>
 
 **Step 3.** Create Schematic<br>
 <br>
