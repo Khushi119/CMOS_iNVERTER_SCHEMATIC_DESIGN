@@ -61,13 +61,13 @@ Check and save the schematic to ensure there are no errors.<br>
 
     4.1 Launch ADE: Go to Launch → ADEL.<br>
     4.2 Setup Model Libraries<br>
-           - Setup → Model Libraries → scl_pdk → design kit → models → hspice → ts18sl_scl_mat.lib.<br>
+ -          Setup → Model Libraries → scl_pdk → design kit → models → hspice → ts18sl_scl_mat.lib.<br>
            - Select tt_18 section.<br>
 
-4.3 Configure Stimuli<br>
+    4.3 Configure Stimuli<br>
     Setup → Stimuli, Enable configuration, define input signals, and click OK or Apply.<br>
 
-4.4 Select Analysis Type<br>
+    4.4 Select Analysis Type<br>
 Choose Transient Analysis for switching behavior, Choose DC Analysis for voltage transfer characteristics.
 
 
