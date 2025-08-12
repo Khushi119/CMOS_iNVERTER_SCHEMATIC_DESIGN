@@ -22,3 +22,5 @@ Power Dissipation
 ---
 Cadence Virtuoso 6.1.7-64b – Schematic and Layout Design <br>
 GPDK 90 nm – Process Design Kit (PDK) used for technology-specific parameters and rules
+
+### Steps 
