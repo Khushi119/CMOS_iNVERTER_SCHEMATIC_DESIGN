@@ -94,7 +94,9 @@ Choose Transient Analysis for switching behavior, Choose DC Analysis for voltage
     - Select the variable from the list in "Add Variable" (Temperature is by default a design variable)
     - Apply value to "Start Point" and "End Point" and "Step Value" accordingly.
     - Click on green button to run simulation.
-  
+
+![DRC Report Screenshot]()
+
     
     
     
