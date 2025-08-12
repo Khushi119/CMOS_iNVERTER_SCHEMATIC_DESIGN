@@ -42,7 +42,7 @@ virtuoso<br>
 3. Create Schematic<br>
 
     3.1 Create a Cell View<br>
-           - Go to File → New → Cell View.<br>
+  &nbsp;&nbsp;&nbsp;- Go to File → New → Cell View.<br>
            - Select the created library, enter the cell name, and click OK.<br>
            - Always select your own library while creating new cell views.<br>
 
