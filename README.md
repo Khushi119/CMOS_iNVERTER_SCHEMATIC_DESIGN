@@ -18,3 +18,7 @@ Voltage Transfer Characteristics (VTC);
 Propagation Delay;
 Power Dissipation
 
+### Tools and Technologies ------->
+---
+Cadence Virtuoso 6.1.7-64b – Schematic and Layout Design
+GPDK 90 nm – Process Design Kit (PDK) used for technology-specific parameters and rules
