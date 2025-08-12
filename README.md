@@ -23,8 +23,9 @@ GPDK 90 nm – Process Design Kit (PDK) used for technology-specific parameters 
 
 ### Steps to follow ------->
 ---
-Steps to Design and Simulate CMOS Inverter in Cadence Virtuoso
-**Step 1.** Invoking the Tool
+Steps to Design and Simulate CMOS Inverter in Cadence Virtuoso<br>
+
+**Step 1.** Invoking the Tool<br>
 
 Open terminal and type:<br>
 csh<br>
@@ -33,21 +34,23 @@ source cshrc.cadence<br>
 virtuoso<br>
 
 **Step 2.** Create Library<br>
-    - Go to File → New → Library.<br>
+<br>
+      - Go to File → New → Library.<br>
     - Assign a name to the library.<br>
     - Attach the library to the technology library ts018_scl_prim.<br>
     - Click Apply → OK.<br>
 
 **Step 3.** Create Schematic<br>
-    **3.1** Create a Cell View<br>
+<br>
+   - **3.1** Create a Cell View<br>
     - Go to File → New → Cell View.<br>
     - Select the created library, enter the cell name, and click OK.<br>
     - Always select your own library while creating new cell views.<br>
-    **3.2** Draw the Schematic<br>
-    - Add instances:<br>
-        - Use pmos_18 and nmos_18 from ts018_scl_prim.<br>
-        - Use vdd and gnd from analogLib.<br>
-        - Connect components using Create → Wire.<br>
+   - **3.2** Draw the Schematic<br>
+      - Add instances:<br>
+         - Use pmos_18 and nmos_18 from ts018_scl_prim.<br>
+         - Use vdd and gnd from analogLib.<br>
+         - Connect components using Create → Wire.<br>
     - Add pins using Create → Pin:<br>
         - input for input pins.<br>
         - output for output pins.<br>
