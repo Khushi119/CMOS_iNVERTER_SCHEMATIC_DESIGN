@@ -57,17 +57,24 @@ Open terminal and type:<br>
         - inputOutput type is for supply changes (only for layout).<br>
 Check and save the schematic to ensure there are no errors.<br>
 
-4. Running Spectre Simulation<br>
-- 4.1 Launch ADE: Go to Launch → ADEL.<br>
-- 4.2 Setup Model Libraries<br>
+**Step 4.** Running Spectre Simulation<br>
+- **4.1** Launch ADE: Go to Launch → ADEL.<br>
+- **4.2** Setup Model Libraries<br>
     -  Setup → Model Libraries → scl_pdk → design kit → models → hspice → ts18sl_scl_mat.lib.<br>
     -  Select tt_18 section.<br>
 
-- 4.3 Configure Stimuli<br>
+- **4.3** Configure Stimuli<br>
     Setup → Stimuli, Enable configuration, define input signals, and click OK or Apply.<br>
 
-- 4.4 Select Analysis Type<br>
+- **4.4** Select Analysis Type<br>
 Choose Transient Analysis for switching behavior, Choose DC Analysis for voltage transfer characteristics.<br>
-- 4.5 Select signlas to plot: select a node for current and net for voltage<br>
-    - Outputs -> To Be Plotted -> Select on Schematic
+- **4.5** Select signlas to plot: select a node for current and net for voltage<br>
+    - Outputs -> To Be Plotted -> Select on Schematic<br>
+- **4.6** Run Simulation : Simulation -> Netlist and Run<br>
 
+**Step 5.** Adding Design Variables<br>
+- **5.1** Add a design variable in the circuit, for example: Vin <br>
+- **5.2** Launch ADE L -> Variables -> Edit<br>
+    - In place of name give variable name (i.e Vin in this case) and give a default value to it and then apply OK.<br>
+
+**Step 6.** 
