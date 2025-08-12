@@ -7,7 +7,7 @@ A CMOS inverter is built using one NMOS transistor and one PMOS transistor conne
 - PMOS is connected to VDD (positive supply) because it conducts well when the input is low (logic 0) and passes a strong logic 1.<br>
 - NMOS is connected to GND because it conducts well when the input is high (logic 1) and passes a strong logic 0.<br>
 This complementary arrangement ensures:
-- When the input is 0, PMOS turns ON (output = 1), and NMOS turns OFF;<br>
+- When the input is 0, PMOS turns ON (output = 1), and NMOS turns OFF.<br>
 - When the input is 1, NMOS turns ON (output = 0), and PMOS turns OFF.<br>
 No direct path from VDD to GND exists in steady states, minimizing static power dissipation.
 
@@ -89,7 +89,7 @@ Choose Transient Analysis for switching behavior, Choose DC Analysis for voltage
 - 6.4 A rectangular box appears with all pins. Give name to [@partname] for example inverter<br>
 - 6.5 Modify this rectangular box as per requirement (use shapes from toolbar)<br>
 
-**Step 7.** Parametric Analysis<br> : When the input is a variable, parametric analysis is required. Let Vin: a design variable
+**Step 7.** Parametric Analysis : When the input is a variable, parametric analysis is required. Let Vin: a design variable
 - 7.1 ADE L -> Tools -> Parametric Analysis
     - Select the variable from the list in "Add Variable" (Temperature is by default a design variable)
     - Apply value to "Start Point" and "End Point" and "Step Value" accordingly.
