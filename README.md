@@ -91,7 +91,7 @@ Choose Transient Analysis for switching behavior, Choose DC Analysis for voltage
 
 **Step 7.** Parametric Analysis : When the input is a variable, parametric analysis is required. Let Vin: a design variable
 - 7.1 ADE L -> Tools -> Parametric Analysis
-    - Select the variable from the list in "Add Variable" (Temperature is by default a design variable)
+- 7.2 Select the variable from the list in "Add Variable" (Temperature is by default a design variable)
     - Apply value to "Start Point" and "End Point" and "Step Value" accordingly.
     - Click on green button to run simulation.
 
