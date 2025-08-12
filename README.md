@@ -8,7 +8,7 @@ PMOS is connected to VDD (positive supply) because it conducts well when the inp
 NMOS is connected to GND because it conducts well when the input is high (logic 1) and passes a strong logic 0.<br>
 This complementary arrangement ensures:
 - When the input is 0, PMOS turns ON (output = 1), and NMOS turns OFF;<br>
-- When the input is 1, NMOS turns ON (output = 0), and PMOS turns OFF.<br>
+- When the input is 1, NMOS turns ON (output = 0), and PMOS turns OFF.
 No direct path from VDD to GND exists in steady states, minimizing static power dissipation.
 
 Key characteristics analyzed in this project include:
