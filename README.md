@@ -67,6 +67,7 @@ Check and save the schematic to ensure there are no errors.<br>
     Setup → Stimuli, Enable configuration, define input signals, and click OK or Apply.<br>
 
 - 4.4 Select Analysis Type<br>
-Choose Transient Analysis for switching behavior, Choose DC Analysis for voltage transfer characteristics.
-
+Choose Transient Analysis for switching behavior, Choose DC Analysis for voltage transfer characteristics.<br>
+- 4.5 Select signlas to plot: select a node for current and net for voltage<br>
+    - Outputs -> To Be Plotted -> Select on Schematic
 
