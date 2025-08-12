@@ -42,11 +42,11 @@ virtuoso<br>
 
 **Step 3.** Create Schematic<br>
 <br>
-   -**3.1** Create a Cell View<br>
+    -**3.1** Create a Cell View<br>
       - Go to File → New → Cell View.<br>
       - Select the created library, enter the cell name, and click OK.<br>
       - Always select your own library while creating new cell views.<br>
-   - **3.2** Draw the Schematic<br>
+    -**3.2** Draw the Schematic<br>
       - Add instances:<br>
          - Use pmos_18 and nmos_18 from ts018_scl_prim.<br>
          - Use vdd and gnd from analogLib.<br>
