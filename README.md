@@ -77,4 +77,30 @@ Choose Transient Analysis for switching behavior, Choose DC Analysis for voltage
 - **5.2** Launch ADE L -> Variables -> Edit<br>
     - In place of name give variable name (i.e Vin in this case) and give a default value to it and then apply OK.<br>
 
-**Step 6.** 
+**Step 6.** Creating a symbol for schematic<br>
+- 6.1 Apply input/output/inout pins in schematic to inputs and outputs which are required as pins in symbol. For example: an inverter having top pin as vdd, left pin as in, right pin as out and bottom pin as gnd.
+- 6.2<br>
+    - Create -> Cellview -> From Cellview<br>
+    - Select library name and give cell name<br>
+    - From View Name: schematic<br>
+    - To View Name: symbol<br>
+    - Apply -> OK<br>
+- 6.3 select top pin as Vdd, left pin as in, right pin as out and bottom pin as gnd. Apply -> OK<br>
+- 6.4 A rectangular box appears with all pins. Give name to [@partname] for example inverter<br>
+- 6.5 Modify this rectangular box as per requirement (use shapes from toolbar)<br>
+
+**Step 7.** Parametric Analysis<br> : When the input is a variable, parametric analysis is required. Let Vin: a design variable
+- 7.1 ADE L -> Tools -> Parametric Analysis
+    - Select the variable from the list in "Add Variable" (Temperature is by default a design variable)
+    - Apply value to "Start Point" and "End Point" and "Step Value" accordingly.
+    - Click on green button to run simulation.
+  
+    
+    
+    
+    
+    
+    
+    
+    
+     
