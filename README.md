@@ -112,11 +112,17 @@ Transient analysis examines the behavior of signals as a function of time, focus
 - **Low-to-High Delay (tplh):**  
   Time between the 50% point of the input falling edge and the 50% point of the output rising edge.
 
-#### Propagation delay is calculated by Formula: <br> Tp = (tphl + tplh)/2
+#### Propagation delay is calculated by Formula: Tp = (tphl + tplh)/2
 
 
 ### Significance:
 These parameters are critical in evaluating the speed performance of logic gates and play a significant role in determining the maximum operating frequency of digital circuits.
+
+# DC Analysis of CMOS INVERTER ------->
+---
+
+DC analysis represents the static behavior of a CMOS inverter. DC analysis can be done by plotting the Voltage Transfer Characteristics (VTC), in which the output voltage is plotted for each value of the input voltage range from 0 to \( V_{DD} \).  
+DC analysis also gives the Noise Margin of the CMOS inverter.
 
 
 
