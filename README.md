@@ -89,13 +89,39 @@ Choose Transient Analysis for switching behavior, Choose DC Analysis for voltage
 - 6.4 A rectangular box appears with all pins. Give name to [@partname] for example inverter<br>
 - 6.5 Modify this rectangular box as per requirement (use shapes from toolbar)<br>
 
-**Step 7.** Parametric Analysis : When the input is a variable, parametric analysis is required. Let Vin: a design variable
-- 7.1 ADE L -> Tools -> Parametric Analysis
-- 7.2 Select the variable from the list in "Add Variable" (Temperature is by default a design variable)
-    - Apply value to "Start Point" and "End Point" and "Step Value" accordingly.
-    - Click on green button to run simulation.
-
 ![DRC Report Screenshot]()
+
+### Transient Analysis of CMOS Inverter ------->
+----
+Transient analysis examines the behavior of signals as a function of time, focusing on the dynamic response of a circuit to changing inputs. In the transient analysis of a CMOS inverter, both the input and output waveforms are observed and plotted to study parameters such as **propagation delay**, **rise time**, and **fall time**.
+
+### Key Parameters:
+- **Rise Time (tr):**  
+  The time taken by the output to transition from 10% to 90% of its steady-state value.<br>
+
+- **Fall Time (tf):**  
+  The time taken by the output to transition from 90% to 10% of its steady-state value.<br>
+
+- **Propagation Delay (tp):**  
+  The average time taken for a change at the input to cause a corresponding change at the output, measured at the 50% voltage level of both input and output signals.<br>
+
+#### Types of Propagation Delay:
+- **High-to-Low Delay (tphl):**  
+  Time between the 50% point of the input rising edge and the 50% point of the output falling edge.<br>
+  
+- **Low-to-High Delay (tplh):**  
+  Time between the 50% point of the input falling edge and the 50% point of the output rising edge.
+
+#### Formula:
+\[
+t_p = \frac{t_{phl} + t_{plh}}{2}
+\]
+
+### Significance:
+These parameters are critical in evaluating the speed performance of logic gates and play a significant role in determining the maximum operating frequency of digital circuits.
+
+
+
 
     
     
