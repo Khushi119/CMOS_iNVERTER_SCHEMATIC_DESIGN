@@ -112,10 +112,8 @@ Transient analysis examines the behavior of signals as a function of time, focus
 - **Low-to-High Delay (tplh):**  
   Time between the 50% point of the input falling edge and the 50% point of the output rising edge.
 
-#### Formula:
-\[
-t_p = \frac{t_{phl} + t_{plh}}{2}
-\]
+#### Propagation delay is calculated by Formula: <br> Tp = (tphl + tplh)/2
+
 
 ### Significance:
 These parameters are critical in evaluating the speed performance of logic gates and play a significant role in determining the maximum operating frequency of digital circuits.
